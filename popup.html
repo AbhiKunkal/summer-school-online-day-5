@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather Now</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h2>🌤 Weather Now</h2>
+
+  <button id="getWeather">Get Current Weather</button>
+
+  <p>OR</p>
+
+  <input type="text" id="location-input" placeholder="Enter city or region" />
+  <button id="searchWeather">Search Weather</button>
+
+  <label style="display:block; margin-top:10px;">
+    <input type="checkbox" id="unit-toggle" /> Show in °F
+  </label>
+
+  <div id="loader" style="display: none; margin: 10px;">⏳ Loading...</div>
+
+  <div id="weather" style="margin-top: 10px;"></div>
+
+  <img id="weather-icon" src="" alt="Weather Icon" style="display:none; width:60px; margin-top: 10px;">
+
+  <script src="popup.js"></script>
+</body>
+</html>
+

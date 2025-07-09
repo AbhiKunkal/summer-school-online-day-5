@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Weather Now",
+  "version": "1.0",
+  "description": "Get the current weather from your location",
+  "permissions": ["geolocation"],
+  "host_permissions": ["https://api.weatherapi.com/"],
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/weathericon.png",
+      "48": "icons/weathericon.png",
+      "128": "icons/weathericon.png"
+    }
+  }
+}
